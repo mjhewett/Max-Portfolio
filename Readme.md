@@ -1,6 +1,7 @@
-## Welcome to My Repo
+## Max's Portfolio
 
-> I am your Readme.md file, you should probably update me.
+> This is a showcase of what I have learned over the past 3 months.
+> Live page coming soon.
 
 
 ## Usage
