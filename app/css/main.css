@@ -1,9 +1,13 @@
 body {
   font-family: "Roboto", sans-serif;
-  background: #8FCBC1; }
+  background: #E7C92D; }
 
 a {
-  color: #FE0000; }
+  color: #008DBD; }
+
+a:hover {
+  color: #FF0000;
+  transition: ease 0.5s; }
 
 .one {
   display: block;
@@ -24,8 +28,33 @@ a {
 aside {
   float: left;
   width: 30%;
-  margin-left: 15px; }
+  margin-left: 15px;
+  border-right: 1px solid;
+  margin-top: 15px; }
 
 .container {
   float: right;
   width: 60%; }
+
+.button {
+  border-radius: 100%;
+  height: 170px;
+  text-align: center;
+  background-color: #FF0000;
+  padding-top: 70px; }
+
+section {
+  margin-right: 15px; }
+
+.line {
+  color: black; }
+
+.p1 {
+  margin-top: 65px;
+  margin-right: 40px; }
+
+.profpic {
+  height: 245px;
+  margin-top: 15px;
+  border-radius: 30px;
+  border: 1px solid black; }
