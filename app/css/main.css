@@ -1,12 +1,30 @@
 body {
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif;
+  background: #8FCBC1; }
 
-h1 {
-  display: block; }
+a {
+  color: #FE0000; }
+
+.one {
+  display: block;
+  font-family: "Oswald", sans-serif;
+  font-size: 100px;
+  margin-bottom: -30px;
+  padding-bottom: 5px; }
+
+.two {
+  display: block;
+  font-family: "Oswald", sans-serif;
+  font-size: 100px;
+  margin-bottom: -20px; }
+
+.three {
+  font-color: black; }
 
 aside {
   float: left;
-  width: 40%; }
+  width: 30%;
+  margin-left: 15px; }
 
 .container {
   float: right;

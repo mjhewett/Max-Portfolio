@@ -1,24 +1,44 @@
 $mainFont: 'Roboto', sans-serif;
-// $mainColor
+$mainColor: #8FCBC1;
 // $headColor
 // $fontColor
 $wingDings: 'Wingdings', sans-serif;
-
+$titleFont: 'Oswald', sans-serif;
 
 
 
 body{
-  font-family: $mainFont;
+font-family: $mainFont;
+background: $mainColor;
 }
 
+a{
+  color: #FE0000;
+}
 
-h1{
+.one{
   display: block;
+  font-family: $titleFont;
+  font-size: 100px;
+  margin-bottom: -30px;
+  padding-bottom: 5px;
+}
+
+.two{
+  display: block;
+  font-family: $titleFont;
+  font-size: 100px;
+  margin-bottom: -20px;
+}
+
+.three{
+  font-color: black;
 }
 
 aside{
   float: left;
-  width: 40%;
+  width: 30%;
+  margin-left: 15px;
 }
 
 .container{
