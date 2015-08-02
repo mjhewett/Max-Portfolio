@@ -1,4 +1,27 @@
-$mainFont
-$mainColor
-$headColor
-$fontColor
+$mainFont: 'Roboto', sans-serif;
+// $mainColor
+// $headColor
+// $fontColor
+$wingDings: 'Wingdings', sans-serif;
+
+
+
+
+body{
+  font-family: $mainFont;
+}
+
+
+h1{
+  display: block;
+}
+
+aside{
+  float: left;
+  width: 40%;
+}
+
+.container{
+  float: right;
+  width: 60%;
+}
