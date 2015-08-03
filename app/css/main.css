@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  background: #FFB26D; }
+  background: #FFECAF; }
 
 a {
   color: #008DBD; }
@@ -61,6 +61,16 @@ section {
   margin-top: 15px;
   border-radius: 30px;
   border: 1px solid black; }
+
+.b2 {
+  display: none; }
+
+.display {
+  margin-top: 85px;
+  float: right;
+  margin-right: 250px;
+  height: 170px;
+  border-radius: 100%; }
 
 .change {
   font-family: "Wingdings", sans-serif;

@@ -1,5 +1,5 @@
 $mainFont: 'Roboto', sans-serif;
-$mainColor: #E7C92D;
+$mainColor: #FFECAF;
 $wingDings: 'Wingdings', sans-serif;
 $titleFont: 'Oswald', sans-serif;
 
@@ -9,7 +9,7 @@ $titleFont: 'Oswald', sans-serif;
 
 body{
 font-family: $mainFont;
-background: #FFB26D;
+background: $mainColor;
 }
 
 a{
@@ -96,8 +96,17 @@ section{
     border: 1px solid black;
 }
 
+.b2{
+  display: none;
+}
 
-
+.display{
+    margin-top: 85px;
+    float: right;
+    margin-right: 250px;
+    height: 170px;
+    border-radius: 100%;
+}
 
 // *************
 // ***button fun**
