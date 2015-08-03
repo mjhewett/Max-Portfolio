@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  background: #E7C92D; }
+  background: #FFB26D; }
 
 a {
   color: #008DBD; }
@@ -40,8 +40,10 @@ aside {
   border-radius: 100%;
   height: 170px;
   text-align: center;
-  background-color: #FF0000;
   padding-top: 70px; }
+
+.button:hover {
+  background-color: #FF0071; }
 
 section {
   margin-right: 15px; }
@@ -51,10 +53,16 @@ section {
 
 .p1 {
   margin-top: 65px;
-  margin-right: 40px; }
+  margin-right: 40px;
+  font-family: "Roboto", sans-serif; }
 
 .profpic {
   height: 245px;
   margin-top: 15px;
   border-radius: 30px;
   border: 1px solid black; }
+
+.change {
+  font-family: "Wingdings", sans-serif;
+  margin-top: 65px;
+  margin-right: 40px; }
