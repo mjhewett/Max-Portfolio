@@ -15,7 +15,7 @@ $('.button').on('click', function (){
 $('.b2').on('click', function() {
 
   $('#p1').removeClass('change').fadeIn();
-  $('#buttonTwo').removeClass('display').fadeOut("slow");
+  $('#buttonTwo').removeClass('display');
   $('#p1').addClass('p1');
   $('#buttonTwo').addClass('b2');
 });
@@ -23,9 +23,9 @@ $('.b2').on('click', function() {
 
 $('.funnyBox').on('click', function(){
   console.log('DELETING ALL FILES!');
-  $('#bod').addClass('alt');
   $('#p1').removeClass('p1');
   $('#p1').addClass('alternative');
+  $('#bod').addClass('alt');
   $('#newButton').removeClass('newButton');
   $('#newButton').addClass('appear');
 });
