@@ -1,7 +1,7 @@
 ## Max's Portfolio
 
 > This is a showcase of what I have learned over the past 3 months.
-> Live page coming soon.
+> Visit my portfolio here: http://development.maxportfolio.divshot.io/#
 
 
 ## Usage
