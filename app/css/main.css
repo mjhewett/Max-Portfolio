@@ -30,7 +30,8 @@ aside {
   width: 30%;
   margin-left: 15px;
   border-right: 1px solid;
-  margin-top: 15px; }
+  margin-top: 15px;
+  height: 600px; }
 
 .container {
   float: right;
@@ -77,6 +78,9 @@ section {
 .display:hover {
   background-color: #FF0071; }
 
+.display:focus {
+  outline: none; }
+
 .change {
   font-family: "Wingdings", sans-serif;
   margin-top: 65px;
@@ -91,8 +95,14 @@ section {
   background-color: #00FFD2;
   transition: ease 1s; }
 
+.funnyBox:focus {
+  outline: none; }
+
 .newButton {
   display: none; }
+
+.newButton:focus {
+  outline: none; }
 
 .alt {
   background-color: #FFC8CB; }
@@ -111,3 +121,6 @@ section {
 
 .appear:hover {
   background-color: #00FFE9; }
+
+.appear:focus {
+  outline: none; }

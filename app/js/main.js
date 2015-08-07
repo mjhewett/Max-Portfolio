@@ -1,3 +1,4 @@
+;(function (){
 
 console.log('Hi there!');
 
@@ -7,16 +8,16 @@ $('.button').on('click', function (){
   $('#p1').removeClass('p1');
   $('#buttonTwo').removeClass('b2');
   $('#p1').addClass('change');
-  $('#buttonTwo').addClass('display').fadeIn("slow");
+  $('#buttonTwo').addClass('display');
 });
 
 
 
 $('.b2').on('click', function() {
 
-  $('#p1').removeClass('change').fadeIn();
+  $('#p1').removeClass('change');
   $('#buttonTwo').removeClass('display');
-  $('#p1').addClass('p1');
+  $('#p1').addClass('p1').fadeIn("slow");
   $('#buttonTwo').addClass('b2');
 });
 
@@ -37,3 +38,6 @@ $('.newButton').on('click', function(){
   $('#p1').addClass('p1');
 });
 
+$('')
+
+}());

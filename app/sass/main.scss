@@ -46,7 +46,7 @@ a:hover{
 // ***Aside***
 // ***********
 
-
+// overflow-y:scroll
 
 aside{
   float: left;
@@ -54,6 +54,7 @@ aside{
   margin-left: 15px;
   border-right: 1px solid;
   margin-top: 15px;
+  height: 600px;
 }
 
 .container{
@@ -103,6 +104,7 @@ section{
   display: none;
 }
 
+
 .display{
     margin-top: 85px;
     float: right;
@@ -116,6 +118,9 @@ section{
   background-color: #FF0071;
 }
 
+.display:focus{
+  outline: none;
+}
 // *************
 // ***button fun**
 // **************
@@ -141,8 +146,16 @@ section{
   transition: ease 1s;
 }
 
+.funnyBox:focus{
+  outline: none;
+}
+
 .newButton{
   display: none;
+}
+
+.newButton:focus{
+  outline: none;
 }
 
 // ***********
@@ -172,4 +185,8 @@ section{
 
 .appear:hover{
   background-color: #00FFE9;
+}
+
+.appear:focus{
+  outline: none;
 }
