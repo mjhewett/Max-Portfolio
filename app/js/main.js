@@ -38,6 +38,5 @@ $('.newButton').on('click', function(){
   $('#p1').addClass('p1');
 });
 
-$('')
 
 }());
