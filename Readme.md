@@ -14,3 +14,6 @@ This template contains some simple `gulp` tasks. They are as follows:
 - `gulp handlebars`: This will compile your handlebars (`.hbs`) files for you. Again, `watch` will watch for changes, but if you add new files, you'll need to run this or restart the `gulp watch` command.
 
 There are many more tasks, and you really should read through the `gulpfile.js`, but the ones above will take care of you in most cases.
+
+
+
